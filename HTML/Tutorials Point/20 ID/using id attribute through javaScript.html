@@ -1,0 +1,35 @@
+<!--
+The ids are freqently used to identify elements for JavaScript functions. For example, you can use a id to target specific elements, like paragraph, and make them interactive through javaScript. In the following code we have create a button which will trigger a function that will change the display property none to block of a p element.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function showContent() {
+            var element = document.getElementById('content');
+            if(eleemnt.style.display === 'none') {
+                element.style.display = 'block';
+            } else {
+                element.style.display = 'none';
+            }
+        }
+    </script>
+    <style>
+        .interactive-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="interactive-button"
+        onclick="showContent()">Click Me</button>
+    <p class="content" style="display: none;">
+        This content can be toggled by clicking the button.
+    </p>
+</body>
+</html>

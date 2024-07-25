@@ -1,0 +1,48 @@
+<!-- We can apply multiple classes to a single element by separating class names with a space. -->
+
+<!-- In the following example, the <h1> element has two classes applied "heading" and "content." This si achieved using a space to separate the class names within the class attribute. -->
+
+<!--
+Multiple classes can be applied to the same element to inherit styling from both classes. In this case, "heading" class proveds a large font size and center alignment, while the "content" class provides a specific text color and line-height.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>class</title>
+</head>
+<body>
+    <style>
+        .heading {
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+        }
+
+        .content {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <body>
+        <!--    Defined two classes in h1 element. -->
+        <h1 class="heading content">
+            Welcome to Tutorialspoint
+        </h1>
+        <p class="content">
+            We make tutorials - simply easy learning.
+        </p>
+        <button class="button">Click Me</button>
+    </body>
+</body>
+</html>

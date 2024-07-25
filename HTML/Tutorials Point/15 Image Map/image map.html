@@ -1,0 +1,50 @@
+An image map in HTML enables specific areas of an image to be clickable, acting as links to different destinations. This technique is useful for creating complex navigation systems or interactive graphics on a webpage.
+
+By defining various shapes (rectangles, circles, polygons) within an image, each with its own associated link, developers can create dynamic and interactive visual content that enhances user engagement and navigation.
+
+Why to use Imgae map?
+Image maps in HTML efficiently create interactive graphics by defining clickable regions within an image. This allows users to interact with different image parts, triggering specific actions or links.
+
+Image maps are useful for creating complex navigation, interactive diagrams or engaging visual experiences, enhancing user engagement and interactivity on web pages.
+
+
+HTML <map></map> Tag:
+In HTML, the <map></map> tag is used to create a client-side image map, turning specific regions of an image into interactive elements. This allows users to click on different areas of the image, triggering various actions. The <map></map> element serves as a container for <area> elements, each defining a clickable region with specific attributes.
+
+<map name = "world map">
+    <!--Define your clickable areas here-->
+</map>
+
+when used in conjunction with the <img> tag, the <map></map> tag established a connection between the image and its associated map. This enables web developers to create dynamic and interactive content by defining distinct clickable zones within an image.
+
+HTML <area> Tag:
+The <area> tag in HTML is used within the <map></map> element to define clickable regions on an image. It specifies the shape, coordinates and associated actions for each clickable area.
+
+Syntax:
+<area shape="shape_value" coords="coordinates" href="url" alt="Description>
+
+Rectangular Area:
+We have to pass "rect" as value if need the area in rectangular shape. Rectangles require coordinates for the top-left and bottom-right corners.
+
+<area shape="rect" coords="xy,y1,x2,y2" href="url" alt="Description">
+
+* x1, y1: Coordinates of the top-left corner.
+* xy, y2: coordinates of the bottom-right corner.
+
+Circular Area:
+We have to pass "circle" as value if need the area in circular shape. Circles need the center coordinates and radius.
+
+<area shape="circle" coords="x,y,r" href="url" alt="Description">
+
+* x,y: coordinates of the circle's center.
+* Radius of the circle.
+
+Polygon Area:
+We have to pass "poly" as value if need the area in the shape of any polygon. Polygons require a series of coordinates to form the shape. This can be used to create any shape whether it be a mango or apple.
+
+<area shape="poly" coords="x1,y1,x2,y2,...,xn,yn" href="url" alt="Description">
+
+where x1,y1,..,xn,yn: Coordinates forming the polygon.
+
+These shapes enable the creation of interactive image maps, enhancing user engagement by association distinct actions with specific areas within an image.
+

@@ -1,0 +1,20 @@
+body {
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+p {
+    background-color: lightgray;
+}
+
+/* main {
+    background-color: aqua;
+    margin: 100px 50px;
+} */
+
+.opposite {
+    display: inline-block;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 2rem;
+}

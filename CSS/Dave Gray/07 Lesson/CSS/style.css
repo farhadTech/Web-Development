@@ -1,0 +1,24 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration:none;
+    cursor:pointer;
+    color: steelblue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover a:focus{
+    color: dodgerblue;
+    opacity: 0.9;
+        }
+
+a:active {
+    color: gold;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>layout</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+
+				box-sizing: border-box;
+			}
+
+			.container {
+				min-height: 100vh;
+				display: grid;
+				grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+        		gap: 0.5rem;
+			}
+
+			.header {
+				background-color: brown;
+				grid-column: 2/-1;
+				grid-row: 1/2;
+			}
+
+			.nav {
+				background-color: salmon;
+				grid-column: 1/2;
+				grid-row: 1/-1;
+			}
+
+			.content {
+				grid-column: 2/13;
+				grid-row: 2/12;
+
+				display: grid;
+        gap: 1rem;
+			}
+
+			.box {
+				background-color: aliceblue;
+				color: black;
+				font-size: 2rem;
+				padding: 0.5rem;
+			}
+
+			.box:first-child {
+				background-color: green;
+				grid-column: 1 / 7;
+				grid-row: 1 / 7;
+			}
+
+			.box:nth-child(2) {
+				background-color: purple;
+				grid-column: 7 / 13;
+				grid-row: 1 / 7;
+			}
+
+			.box:last-child {
+				background-color: blue;
+				grid-column: 1 / 13;
+				grid-row: 7 / 13;
+			}
+
+			.footer {
+				background-color: black;
+				grid-column: 2/-1;
+				grid-row: 12/-1;
+			}
+		</style>
+	</head>
+
+	<body class="container">
+		<header class="header"></header>
+		<nav class="nav"></nav>
+		<div class="content">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+		</div>
+		<footer class="footer"></footer>
+	</body>
+</html>

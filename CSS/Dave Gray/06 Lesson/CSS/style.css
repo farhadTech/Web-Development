@@ -1,0 +1,16 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+p {
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    word-spacing: 0.1em;
+    font-weight: 400;
+    font-style: normal;
+}

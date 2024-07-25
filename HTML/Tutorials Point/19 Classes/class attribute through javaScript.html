@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>class attribute through javaScript</title>
+    <script>
+        function showContent() {
+            var element = document.getElementByClassName('content')[0];
+            if(element.style.display == 'none') {
+                element.style.display = 'block';
+            } else {
+                element.style.display = 'none';
+            }
+        }
+    </script>
+    <style>
+        .interactive-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="interactive-button"
+        onclick="showContent()">Click Me</button>
+    <p class="content" style="display: none;">
+        This content can be toggled by clicking the button.
+    </p>
+</html>
+
