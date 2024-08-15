@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container {
+        height: 100vh;
+        background: aliceblue;
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        border: 2px solid brown;
+        margin: 2px;
+        padding: 2px;
+    }
+    .box1 {background: aqua;}
+    .box2 {background: blue;}
+    .box3 {background: orange;}
+    .box4 {background: brown;}
+    .box5 {background: rgb(103, 108, 108);}
+    .box6 {background: blue;}
+    .box7 {background: orange;}
+    .box8 {background: brown;}
+    .box9 {background: aqua;}
+    .box10 {background: blue;}
+    .box11 {background: rgb(228, 225, 220);}
+    .box12 {background: brown;}
+
+    @media (min-width: 640px) {
+        .container {
+            flex-direction: row;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            flex-direction: column;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box4">Box 4</div>
+        <div class="box box5">Box 5</div>
+        <div class="box box6">Box 6</div>
+    </div>
+
+    <div class="con2"></div>
+</body>
+</html>

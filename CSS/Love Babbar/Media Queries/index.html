@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+</head>
+
+<style>
+    body {
+        height: 100vh;
+        font-family: monospace;
+        font-size: 1.5rem;
+    }
+
+    .box {
+        height: 300px;
+        width: 300px;
+        background: aqua;
+        border: 3px solid black;
+    }
+
+    @media (min-width: 300px) and (max-width: 500px) {
+        .box {
+            background: green;
+        }
+    }
+
+</style>
+<body>
+    <div class="box">
+        Hello World!
+    </div>
+</body>
+</html>

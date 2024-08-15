@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box
+}
+
+body {
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: beige;
+    border: 2px solid black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+
+    color: whitesmoke;
+    background-color: darkcyan;
+    border: 1px solid brown;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 3s linear 1s;
+}
+
+.box:hover {
+    /* transform: rotate(45deg); */
+    /* transform: scale(2); */
+    /* transform: scale(0.5); */
+    /* transform: skew(90deg); */
+    transform: translate(0, 500px)
+}

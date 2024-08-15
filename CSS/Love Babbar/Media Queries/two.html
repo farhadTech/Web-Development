@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        font-family: monospace;
+        font-size: 1.5rem;
+
+        background-color: aquamarine;
+    }
+
+    img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .container {
+        background-color: bisque;
+        display: flex;
+    }
+
+    .box-1 {
+        margin: 50px 10px;
+        background: green;
+        border: 1px solid black;
+    }
+    .box-2 {
+        margin: 50px 10px;
+        background: blue;
+        border: 1px solid black;
+    }
+
+    .box-3 {
+        margin: 10px 5px;
+        background-color: cadetblue;
+        border: 1px solid blue;
+    }
+
+    @media (min-width: 640px) {
+        .container {
+            flex-direction: row;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            flex-direction: column;
+        }
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <article class="box-1">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa ut quod totam deleniti corporis molestiae saepe quis sunt aspernatur doloribus corrupti velit expedita minus repellendus amet facere beatae, architecto neque.</p>
+            </article>
+            <br> <hr> <br>
+            <article class="box-2">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis temporibus eius voluptas libero? Quisquam odio laudantium, deleniti soluta doloremque cum reprehenderit rerum facilis nostrum totam inventore quod itaque corrupti molestias debitis dolore commodi ratione libero aperiam quia veniam. Quod!</p>
+            </article>
+        </div> <br>
+        <div class="box-3">
+            <img src="/CSS/Love Babbar/Wallpaper/Screenshot 2024-07-24 100911.png" alt="Natural Scene">
+        </div>
+    </div>
+</body>
+</html>

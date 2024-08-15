@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 1.5rem;
+    height: 100vh;
+    width: 100vw;
+
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+h3 {
+    padding: 20px 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 1px solid green;
+
+    position: relative;
+    top: 200px;
+    left: 150px;
+
+    transform: rotate(360deg);
+    transition: all 2s ease-in;
+}
+
+.box:hover {
+    background: blueviolet;
+    color: whitesmoke;
+    font-size: 50px;
+
+    /* transform: translate(500px, 500px); */
+    transform: skew(30deg);
+}
+
+.box:active {
+    transform: scale(2, 2);
+    background-color: tomato;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Normal HTML Table</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            width: 100vw;
+        }
+
+        #table1 {
+            margin-left: 100px;
+            margin-top: 20px;
+
+            padding: 5px;
+            border-collapse: separate;
+
+            border-color: red;
+        }
+
+        #table2 {
+            margin-left: 100px;
+            margin-top: 50px;
+
+            padding: 5px;
+            border-collapse: separate;
+
+            border-color: red;
+        }
+
+        tr {
+            font-family: monospace;
+            font-size: 2rem;
+        }
+
+        th,
+        td {
+            border: 1px solid green;
+            padding: 10px;
+            text-align: left;
+        }
+
+        tr:hover {
+            background-color: #d6eeee;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="table1" border="2">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Bill gates</td>
+            <td>7 billion</td>
+        </tr>
+        <tr>
+            <td>Elon Musk</td>
+            <td>11 billion</td>
+        </tr>
+        <tr>
+            <td>Mark Juckerberg</td>
+            <td>17 billion</td>
+        </tr>
+    </table>
+
+    <table id="table2" border="2">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Bernard Arnault</td>
+            <td>5 billion</td>
+        </tr>
+        <tr>
+            <td>Larry Page</td>
+            <td>2 billion</td>
+        </tr>
+        <tr>
+            <td>Mukesh Ambani</td>
+            <td>13 billion</td>
+        </tr>
+    </table>
+</body>
+
+</html>

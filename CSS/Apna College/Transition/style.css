@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: monospace;
+    font-size: 1.5rem;
+    background: beige;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+
+    background-color: brown;
+
+    position: relative;
+    top: 200px;
+    left: 150px;
+
+    /* transition-property: all;
+    transition-duration: 2s; */
+    /* transition-timing-function: steps(5); */
+    /* transition-timing-function: ease-in;
+    transition-delay: 1s; */
+
+    /* Using shorthand. */
+    transition: all 2s ease-in 1s;
+}
+
+p {
+    padding: 10px;
+}
+
+.box:hover {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+}
+
+.box:active {
+    background-color: green;
+}

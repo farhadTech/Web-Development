@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defining Multiple Header rows</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        th {
+            padding: 6px;
+        }
+
+        td {
+            padding: 4px;
+        }
+
+        .container {
+            font-family: monospace;
+            font-size: 2rem;
+            margin-left: 120px;
+            margin-top: 10px;
+        }
+
+        .con1 {
+            background-color: green;
+        }
+
+        .con2 {
+            background-color: aliceblue;
+        }
+
+    </style>
+</head>
+
+<body>
+<table class="container" border="1">
+    <thead>
+        <tr class = "con1">
+            <th colspan="2">Tutorialspoint</th>
+        </tr>
+        <tr class="con2">
+            <th>Role</th>
+            <th>Experience</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>Technical Lead</td>
+        <td>5 Years</td>
+    </tr>
+
+    <tr>
+        <td>Web Developer</td>
+        <td>2 Years</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+    background-color: rgb(241, 228, 209);
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.items {
+    background-color: steelblue;
+    border: 1px solid skyblue;
+}

@@ -1,0 +1,4 @@
+*.json
+.output.css
+.tailwind.config.js
+node_modules

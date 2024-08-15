@@ -1,0 +1,60 @@
+<!--
+Using <colgroup> Inside <thead>
+The <colgroup> tag can be used within <thead> to group together a set of column and apply CSS styling or attributes to entire columns.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using colgroup inside thead</title>
+
+    <style>
+        .col1 {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table with colgroup</h1>
+    <table border="1">
+        <colgroup class="col1">
+            <col style="width: 100px;">
+            <col style="width: 200px;">
+        </colgroup>
+            <col style="width: 100px;">
+            <col style="width: 100px;">
+
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Smartphone</td>
+                <td>Electronics</td>
+                <td>$299.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Office Chair</td>
+                <td>Furniture</td>
+                <td>$89.00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Laptop</td>
+                <td>Electronics</td>
+                <td>$999.00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

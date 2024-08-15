@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 1.5rem;
+    height: 100vh;
+    background: beige;
+    border: 1px solid black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+    background-color: teal;
+    color: whitesmoke;
+    position: relative;
+    top: 200px;
+    left: 150px;
+
+    animation-name: colorAnimate;
+    animation-duration: 1s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: 5;
+}
+
+@keyframes colorAnimate {
+    from {background-color: teal;}
+    to {background-color:salmon;}
+}

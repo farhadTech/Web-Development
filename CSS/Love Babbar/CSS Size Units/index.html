@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+
+    /* width percentage is depend on immediate parent. Here immediate parent of div is body.
+        body is a block level element so body has default width of 100%.
+    */
+
+        /* .box {
+            border: 1px solid red;
+            width: 25%;
+        } */
+
+        /* .parent {
+            border: 1px solid black;
+            background-color: beige;
+        }
+        .child {
+            border: 1px solid green;
+            background-color: aquamarine;
+        } */
+
+        /* 100vh means all 100% of height of display we can see. */
+        /* .container {
+            background-color: beige;
+            border: 10px solid green;
+            height: 100vh;
+        } */
+
+        /* .box1{
+            border: 1px solid black;
+            margin: 10px 5px;
+            font-size: 100px;
+        } */
+
+        /* em will get multiplied by 10 by parent's pixels. here parent is container and the size of container is 10px so font-size of box is 10em means (10 * 10) 100 pixels.
+        */
+        /* .container {
+            font-size: 10px;
+        }
+        .box {
+            font-size: 10em;
+        } */
+
+        /* rem means default font size is 16px so 1rem means 16px 2rem means 2 * 16 px, and 5rem means 5 * 16 pixels which is 80. */
+        .firstPara{
+            margin: 10px 5px;
+            border: 1px solid black;
+
+            font-size: 5rem;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- <div class="box">
+        Welcome to CodeHelp.
+    </div> -->
+
+    <!-- <div class="parent">
+        <div class="child">
+            CHILD
+        </div>
+    </div> -->
+
+    <!-- <div class="container">
+        Welcome to CodeHelp.
+    </div> -->
+
+    <!-- <div class="box1">
+        Love Bubber
+    </div> -->
+    <!-- <p>Hello All!</p>
+    <div class="container">
+        <div class="box">
+            Welcome to CodeHelp.
+        </div>
+    </div> -->
+
+    <p class="firstPara">
+        first paragraph.
+    </p>
+</body>
+</html>

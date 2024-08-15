@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./output.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
+		<button class="dark:md:hover:bg-fuchsia-600 ...">Save changes</button> -->
+
+		<button
+			class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
+		>
+			Save changes
+		</button>
+
+    <ul class="p-6 divide-y divide-slate-200" role="list">
+      {#each people as person}
+      <!-- Remove top/bottom padding when first/last child -->
+      <li class="flex py-4 first:pt-0 last:pb-0">
+        <img src="" alt="" class="h-10 w-10 rounded-full">
+      </li>
+    </ul>
+	</body>
+</html>

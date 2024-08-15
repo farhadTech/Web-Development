@@ -1,0 +1,74 @@
+
+
+.boxes {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    row-gap: 5px;
+    column-gap: 5px;
+
+    gap: 10px;
+}
+
+.box--1{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
+
+.box--2 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
+
+.box--3{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
+
+.box--4{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
+
+.box--5{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
+
+.box--6{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
+
+.box--7{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
+
+.box--8{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid salmon;
+}
