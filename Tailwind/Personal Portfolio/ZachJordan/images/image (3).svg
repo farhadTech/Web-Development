@@ -1,0 +1,3 @@
+<svg onclick="openMobileNav()" xmlns="http://www.w3.org/2000/svg" class="duration-200 p-1.5 bg-gray-100 hover:bg-gray-200 h-12 w-12 rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.620" d="M4 6h16M4 12h8m-8 6h16"></path>
+              </svg>

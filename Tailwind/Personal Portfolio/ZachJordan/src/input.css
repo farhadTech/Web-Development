@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.primary-color {
+		text-decoration-color: rgba(53, 211, 153, 0.975);
+	}
+	.bg-primary-color {
+		background-color: rgba(53, 211, 153, 0.975);
+	}
+	.text-primary-color {
+		color: rgba(53, 211, 153, 0.99);
+	}
+}
