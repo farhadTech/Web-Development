@@ -12,4 +12,7 @@
 	.text-primary-color {
 		color: rgba(53, 211, 153, 0.99);
 	}
+	.border-primary-color {
+		border-color: rgba(53, 211, 153, 0.99);
+	}
 }
